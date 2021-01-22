@@ -1,4 +1,4 @@
-# Javascript Weather App
+# Javascript Weather App ⛅️
 
 My first ever javascript app made with vanilla JavaScript / No Framework for Javascipt or CSS
 
