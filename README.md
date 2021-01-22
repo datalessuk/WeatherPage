@@ -10,7 +10,7 @@ Features to come
 
 Built with
 
-VS Code
-Javascript
-CSS
-HTML
+*VS Code
+*Javascript
+*CSS
+*HTML
