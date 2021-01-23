@@ -30,7 +30,7 @@ submitButton.addEventListener('click',function(){
 function getWeather(pCityID){
     //let api = `api.openweathermap.org/data/2.5/weather?id=${pCityName}&appid=${openAPIKey}`;
     let url = "https://api.openweathermap.org/data/2.5/weather?q="+pCityID+"&appid="+openAPIKey;
-    //let api2 = "https://api.openweathermap.org/data/2.5/weather?id="+pCityID+"&appid="+openAPIKey;
+    
     fetch(url).then((response) =>{
         if(!response.ok){
           spanError = document.getElementById('onError').innerHTML="Not a valid location please try again";
@@ -54,6 +54,9 @@ function getWeather(pCityID){
             showWeather();
            
         })
+        //.then(()=>{
+            //showWeather();
+        //}
         .catch((err) =>{
             showWeatherError();
             console.log(err);
